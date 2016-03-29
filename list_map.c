@@ -1,6 +1,6 @@
 #include <liblist.h>
 
-void		list_apply(t_plist *lst, t_plist *(*fn)(t_plist *))
+void		list_map(t_plist *lst, t_plist *(*fn)(t_plist *))
 {
 	while (lst)
 	{

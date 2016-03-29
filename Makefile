@@ -1,9 +1,12 @@
 NAME = liblist
 DEPENDENCIES = libft
 SOURCES = list_new.c \
-					list_apply.c \
+					list_map.c \
 					list_push_back.c \
-					list_push_front.c
+					list_push_front.c \
+					list_remove.c \
+					list_count.c \
+					list_pop_front.c \
 
 SOURCES_FOLDER = .
 
