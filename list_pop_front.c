@@ -1,7 +1,18 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   list_pop_front.c                                   :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: bsautron <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2016/04/03 19:16:51 by bsautron          #+#    #+#             */
+/*   Updated: 2016/04/03 19:17:02 by bsautron         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include <liblist.h>
 
-void    list_pop_front(t_plist **start)
+void	list_pop_front(t_plist **start)
 {
-  // need to have a function pointer to free elem
-  *start = (*start)->next;
+	*start = (*start)->next;
 }
