@@ -1,3 +1,15 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    Makefile                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: bsautron <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2016/04/03 19:29:05 by bsautron          #+#    #+#              #
+#    Updated: 2016/04/03 19:38:12 by bsautron         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
 NAME = liblist
 DEPENDENCIES = libft
 SOURCES = list_new.c \
@@ -59,6 +71,6 @@ clean:
 	rm -rf $(OBJECTS_FOLDER)
 
 fclean: clean
-	rm -f $(NAME)
+	rm -f $(NAME).a
 
 re: fclean all

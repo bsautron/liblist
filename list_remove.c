@@ -6,16 +6,16 @@
 /*   By: bsautron <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/04/03 19:17:40 by bsautron          #+#    #+#             */
-/*   Updated: 2016/04/03 19:18:31 by bsautron         ###   ########.fr       */
+/*   Updated: 2016/04/03 19:38:02 by bsautron         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <liblist.h>
 #include <stdio.h>
 
-void	list_remove(t_plist **list, int (*fn)(t_plist *))
+void	l_rm(t_plist **list, int (*fn)(t_plist *))
 {
-	t_plisti	*tmp;
+	t_plist		*tmp;
 	t_plist		*prev;
 
 	tmp = *list;

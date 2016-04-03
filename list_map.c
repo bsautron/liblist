@@ -6,13 +6,13 @@
 /*   By: bsautron <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/04/03 19:17:17 by bsautron          #+#    #+#             */
-/*   Updated: 2016/04/03 19:17:18 by bsautron         ###   ########.fr       */
+/*   Updated: 2016/04/03 19:37:34 by bsautron         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <liblist.h>
 
-void		list_map(t_plist *lst, t_plist *(*fn)(t_plist *))
+void		l_map(t_plist *lst, t_plist *(*fn)(t_plist *))
 {
 	while (lst)
 	{
